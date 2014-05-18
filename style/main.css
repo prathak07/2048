@@ -314,38 +314,31 @@ hr {
     font-size: 55px; 
     color: rgba(0,0,0,0);}
   .tile.tile-2 .tile-inner {
-    background: #eee4da;
-    background: url('../tile-sets/presidents/2.jpg');
+    background: url('../tile-sets/udacity/2.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #ede0c8;
-    background: url('../tile-sets/presidents/4.jpg');
+    background: url('../tile-sets/udacity/4.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
     color: rgba(0,0,0,0);
-    background: #f2b179;
-    background: url('../tile-sets/presidents/8.jpg'); }
+    background: url('../tile-sets/udacity/8.png'); }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
     color: rgba(0,0,0,0);
-    background: #f59563;
-    background: url('../tile-sets/presidents/16.jpg'); }
+    background: url('../tile-sets/udacity/16.png'); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
     color: rgba(0,0,0,0);
-    background: #f67c5f;
-    background: url('../tile-sets/presidents/32.jpg'); }
+    background: url('../tile-sets/udacity/32.png'); }
   .tile.tile-64 .tile-inner {
     color: #f9f6f2;
     color: rgba(0,0,0,0);
-    background: #f65e3b;
-    background: url('../tile-sets/presidents/64.jpg'); }
+    background: url('../tile-sets/udacity/64.png'); }
   .tile.tile-128 .tile-inner {
     color: #f9f6f2;
     color: rgba(0,0,0,0);
-    background: #edcf72;
-    background: url('../tile-sets/presidents/128.jpg');
+    background: url('../tile-sets/udacity/128.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -354,8 +347,7 @@ hr {
   .tile.tile-256 .tile-inner {
     color: #f9f6f2;
     color: rgba(0,0,0,0);
-    background: #edcc61;
-    background: url('/tile-sets/presidents/256.jpg');
+    background: url('/tile-sets/udacity/256.png');
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
