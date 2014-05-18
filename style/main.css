@@ -2,8 +2,8 @@
 html, body {
   margin: 0;
   padding: 0;
-  background: #faf8ef;
-  color: #776e65;
+  background: #c6f0ff;
+  color: #083c90;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
   font-size: 18px; }
 
@@ -16,7 +16,7 @@ body {
   clear: both; }
 
 h1.title {
-  font-size: 80px;
+  font-size: 65px;
   font-weight: bold;
   margin: 0;
   display: block;
@@ -53,7 +53,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #bbada0;
+  background: #7393e1;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -72,15 +72,15 @@ h1.title {
     font-size: 13px;
     line-height: 13px;
     text-align: center;
-    color: #eee4da; }
+    color: #91bce5; }
   .score-container .score-addition, .best-container .score-addition {
     position: absolute;
     right: 30px;
-    color: red;
+    color: blue;
     font-size: 25px;
     line-height: 25px;
     font-weight: bold;
-    color: rgba(119, 110, 101, 0.9);
+    color: rgba(180, 184, 221, 0.9);
     z-index: 100;
     -webkit-animation: move-up 600ms ease-in;
     -moz-animation: move-up 600ms ease-in;
@@ -101,7 +101,7 @@ p {
   line-height: 1.65; }
 
 a {
-  color: #776e65;
+  color: #545269;
   font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
@@ -111,7 +111,7 @@ strong.important {
 
 hr {
   border: none;
-  border-bottom: 1px solid #d8d4d0;
+  border-bottom: 1px solid #d0d1d8;
   margin-top: 20px;
   margin-bottom: 30px; }
 
@@ -149,7 +149,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #bbada0;
+  background: #7393e1;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -163,7 +163,7 @@ hr {
     right: 0;
     bottom: 0;
     left: 0;
-    background: rgba(238, 228, 218, 0.5);
+    background: rgba(152, 168, 238, 0.5);
     z-index: 100;
     text-align: center;
     -webkit-animation: fade-in 800ms ease 1200ms;
@@ -183,19 +183,19 @@ hr {
       margin-top: 59px; }
     .game-container .game-message a {
       display: inline-block;
-      background: #8f7a66;
+      background: #474476;
       border-radius: 3px;
       padding: 0 20px;
       text-decoration: none;
-      color: #f9f6f2;
+      color: #c6f0ff;
       height: 40px;
       line-height: 42px;
       margin-left: 9px; }
       .game-container .game-message a.keep-playing-button {
         display: none; }
     .game-container .game-message.game-won {
-      background: rgba(237, 194, 46, 0.5);
-      color: #f9f6f2; }
+      background: rgba(46, 194, 237, 0.5);
+      color: #c6f0ff; }
       .game-container .game-message.game-won a.keep-playing-button {
         display: inline-block; }
     .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -220,7 +220,7 @@ hr {
   margin-right: 15px;
   float: left;
   border-radius: 3px;
-  background: rgba(238, 228, 218, 0.35); }
+  background: rgba(152, 168, 238, 0.35); }
   .grid-cell:last-child {
     margin-right: 0; }
 
@@ -307,82 +307,67 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #eee4da;
+    background: #91bce5;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-size: 55px; 
-    color: rgba(0,0,0,0);}
+    font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/udacity/2.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: #c6f0ff;
+    background: #91bce5; }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/udacity/4.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
+    color: #c6f0ff;
+    background: #a9c9ec; }
   .tile.tile-8 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: url('../tile-sets/udacity/8.png'); }
+    color: #c6f0ff;
+    background: #79ccf2; }
   .tile.tile-16 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: url('../tile-sets/udacity/16.png'); }
+    color: #c6f0ff;
+    background: #63c8f5; }
   .tile.tile-32 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: url('../tile-sets/udacity/32.png'); }
+    color: #c6f0ff;
+    background: #5fbaf6; }
   .tile.tile-64 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: url('../tile-sets/udacity/64.png'); }
+    color: #c6f0ff;
+    background: #3b93f6; }
   .tile.tile-128 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: url('../tile-sets/udacity/128.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
+    color: #c6f0ff;
+    background: #4a15c6;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: url('/tile-sets/udacity/256.png');
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
+    color: #c6f0ff;
+    background: #3f0eb0;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: #edc850;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
+    color: #c6f0ff;
+    background: #340b92;
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: #edc53f;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
+    color: #c6f0ff;
+    background: #2b0978;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    color: #f9f6f2;
-    color: rgba(0,0,0,0);
-    background: #edc22e;
-    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
+    color: #c6f0ff;
+    background: #240865;
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 15px; } }
   .tile.tile-super .tile-inner {
-    color: #f9f6f2;
-    background: #3c3a32;
+    color: #c6f0ff;
+    background: #15053b;
     font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
@@ -498,11 +483,11 @@ hr {
 
 .restart-button {
   display: inline-block;
-  background: #8f7a66;
+  background: #474476;
   border-radius: 3px;
   padding: 0 20px;
   text-decoration: none;
-  color: #f9f6f2;
+  color: #c6f0ff;
   height: 40px;
   line-height: 42px;
   display: block;
@@ -561,7 +546,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #bbada0;
+    background: #7393e1;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -575,7 +560,7 @@ hr {
       right: 0;
       bottom: 0;
       left: 0;
-      background: rgba(238, 228, 218, 0.5);
+      background: rgba(152, 168, 238, 0.5);
       z-index: 100;
       text-align: center;
       -webkit-animation: fade-in 800ms ease 1200ms;
@@ -595,19 +580,19 @@ hr {
         margin-top: 59px; }
       .game-container .game-message a {
         display: inline-block;
-        background: #8f7a66;
+        background: #474476;
         border-radius: 3px;
         padding: 0 20px;
         text-decoration: none;
-        color: #f9f6f2;
+        color: #c6f0ff;
         height: 40px;
         line-height: 42px;
         margin-left: 9px; }
         .game-container .game-message a.keep-playing-button {
           display: none; }
       .game-container .game-message.game-won {
-        background: rgba(237, 194, 46, 0.5);
-        color: #f9f6f2; }
+        background: rgba(46, 194, 237, 0.5);
+        color: #c6f0ff; }
         .game-container .game-message.game-won a.keep-playing-button {
           display: inline-block; }
       .game-container .game-message.game-won, .game-container .game-message.game-over {
@@ -632,7 +617,7 @@ hr {
     margin-right: 10px;
     float: left;
     border-radius: 3px;
-    background: rgba(238, 228, 218, 0.35); }
+    background: rgba(152, 168, 238, 0.35); }
     .grid-cell:last-child {
       margin-right: 0; }
 
